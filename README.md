@@ -1,2 +1,2 @@
 # Blog
-Sample blog development using spring boot and vue.js
+Sample blog development using Spring Boot and Vue.js(Under development)
