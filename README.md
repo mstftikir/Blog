@@ -1,2 +1,2 @@
 # Blog
-Building a blog with spring boot and vue.js
+Sample blog development using spring boot and vue.js
