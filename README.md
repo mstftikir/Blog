@@ -1,2 +1,16 @@
-# Blog
-Sample blog development using Spring Boot and Vue.js(Under development)
+Building a blog using following technologies
+
+Java 1.8
+Java JDK 12
+Spring Boot
+Maven
+Rest services
+Oauth
+JPA
+Hibernate
+Oracle DB 12c
+Vue Js
+Axios
+Javascript
+Html
+Css
