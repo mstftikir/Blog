@@ -13,5 +13,6 @@ Oracle DB 12c
 Vue Js
 Axios
 Javascript
+Thymeleaf
 Html
 Css
