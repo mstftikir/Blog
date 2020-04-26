@@ -1,4 +1,3 @@
-# Blog
 Building a blog using following technologies
 
 Java 1.8
