@@ -1,9 +1,6 @@
 package com.mstftikir.github.blog.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity
@@ -11,22 +8,26 @@ public class Post {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long Id;
+    private Long id;
 
     private String title;
     private String body;
-    private Date dateGenerated;
+    private Date dateCreated;
 
-    public Post(){
+    @ManyToOne
+    private UserInfo creator;
 
+
+
+    public Post() {
     }
 
     public Long getId() {
-        return Id;
+        return id;
     }
 
     public void setId(Long id) {
-        Id = id;
+        this.id = id;
     }
 
     public String getTitle() {
@@ -45,11 +46,19 @@ public class Post {
         this.body = body;
     }
 
-    public Date getDateGenerated() {
-        return dateGenerated;
+    public Date getDateCreated() {
+        return dateCreated;
     }
 
-    public void setDateGenerated(Date dateGenerated) {
-        this.dateGenerated = dateGenerated;
+    public void setDateCreated(Date dateCreated) {
+        this.dateCreated = dateCreated;
+    }
+
+    public UserInfo getCreator() {
+        return creator;
+    }
+
+    public void setCreator(UserInfo creator) {
+        this.creator = creator;
     }
 }
