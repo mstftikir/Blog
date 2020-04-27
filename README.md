@@ -1,6 +1,5 @@
 Building a blog using following technologies
 
-Java 1.8
 Java JDK 12
 Spring Boot
 Maven
